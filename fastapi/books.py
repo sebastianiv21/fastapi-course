@@ -50,6 +50,8 @@ async def read_books_by_author(author: str):
 ORDER MATTERS!!!
 The next endpoint goes after the previous one, because it can consume the same
 requirements, producing an error indicating, in this case, that the category is missing.
+
+Try to put simpler endpoints first
 """
 
 
